@@ -124,20 +124,7 @@ export const HeroCards = () => {
       </Card>
 
       {/* Service */}
-      <Card className="absolute w-[350px] -right-[10px] bottom-[35px]  drop-shadow-xl shadow-black/10 dark:shadow-white/10">
-        <CardHeader className="space-y-1 flex md:flex-row justify-start items-start gap-4">
-          <div className="mt-1 bg-primary/20 p-1 rounded-2xl">
-            <MdLightMode className="text-4xl text-primary" />
-          </div>
-          <div>
-            <CardTitle>Light & dark mode</CardTitle>
-            <CardDescription className="text-md mt-2">
-              Lorem ipsum dolor sit amet consect adipisicing elit. Consectetur
-              natusm.
-            </CardDescription>
-          </div>
-        </CardHeader>
-      </Card>
+    
     </div>
   );
 };
